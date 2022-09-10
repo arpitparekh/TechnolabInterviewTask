@@ -35,7 +35,7 @@ class QuestionRepo(application: Application) {
             for(i in 0 until number){
 
                 val ans =(1..4).random()
-                questionList.add(Question("question : ${i+1}","option 1","option 2","option 3","option 4",ans))
+                questionList.add(Question("question : ${i+1}","option 1","option 2","option 3","option 4",ans,false,0))
                 dao.insertQuestions(questionList[i])
 
             }

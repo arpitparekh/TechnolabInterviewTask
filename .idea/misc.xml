@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_add_number.xml" value="0.28489583333333335" />
+        <entry key="app/src/main/res/layout/activity_result.xml" value="0.28489583333333335" />
         <entry key="app/src/main/res/layout/activity_show_questions.xml" value="0.28489583333333335" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.28489583333333335" />
         <entry key="app/src/main/res/layout/question_row_item.xml" value="0.2838541666666667" />

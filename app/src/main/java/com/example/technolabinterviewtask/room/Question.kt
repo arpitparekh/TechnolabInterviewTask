@@ -18,6 +18,10 @@ data class Question(
     val op4 : String,
     @ColumnInfo(name = "answer")
     val answer : Int,
+    @ColumnInfo(name="answered")
+    var answered : Boolean,
+    @ColumnInfo(name="userAnswer")
+    var userAnswer : Int,
     @PrimaryKey(autoGenerate = true)
     val id:Int = 0
 )
